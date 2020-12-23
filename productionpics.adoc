@@ -1,0 +1,17 @@
+
+= Bilder aus der Produktion
+
+image::img/01parts.jpg[]
+image::img/02_cnc.jpg[]
+image::img/03_cnc.jpg[]
+image::img/04_cnc.jpg[]
+image::img/05_cnc.jpg[]
+image::img/06_cnc.jpg[]
+image::img/07_cnc.jpg[]
+image::img/08_cnc.jpg[]
+image::img/09_cnc.jpg[]
+image::img/10_cnc.jpg[]
+image::img/11_parts.jpg[]
+image::img/12_assembled.jpg[]
+image::img/13_assembled.jpg[]
+image::img/14_assembled.jpg[]

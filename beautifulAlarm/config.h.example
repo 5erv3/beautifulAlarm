@@ -1,0 +1,15 @@
+#ifndef _CONFIG_H_
+#define _CONFIG_H_
+
+#define WIFI_MAX_CONNECT_TIME_SEC 10
+
+#define ALARM_MAX_PLAYING_TIME_SEC (3 * 60)
+
+#define NB_WIFI_SSID 2
+
+char* wifis[NB_WIFI_SSID] = {"ssid1", "ssid2"};
+char* passwords[NB_WIFI_SSID] = {"password1", "password2"};
+
+const char* timezone_str = "Europe/Berlin";
+
+#endif

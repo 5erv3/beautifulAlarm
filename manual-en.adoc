@@ -1,0 +1,48 @@
+= Beatuiful Alarm Manual
+Stefan Spicker <spicker@outlook.com>
+0.1, 13.12.2020
+:pdf-page-size: A4
+
+An alarm clock that looks and sounds just beautiful. Waking up has never been more smoothly.
+
+== General Overview
+
+The most beautiful alarm clock can be seen in the <<overview>>. It features three touch buttons, an USB-micro connector for power supply and an SD card to store alarm melodies. 
+
+Additionally, the alarm clock connects to your WiFi to get the most accurate time. A webserver gives you easy and full control of the alarm settings.
+
+.Front view of the most beautiful alarm
+[#overview]
+image::img/overview.jpg[]
+
+== Touch Button Control
+
+The touch button features depend on the current state of the alarm clock. Currently there are two states: Normal and alarm state (which includes snoozed state).
+
+In general, the main button handles two states: longpress and shortpress events, a longpress is longer than one second. 
+
+=== Normal State
+
+When no alarm is present, the alarm clock is in normal state.
+
+*Shortpress*: Display on / off
+
+*Longpress*: Display all future alarm events
+
+=== Alarm State
+
+In alarm or snoozed state, the button presses have the following functions:
+
+*Shortpress*: Snooze
+
+*Longpress*: Hold for four seconds, until "OFF" is displayed. This shuts off the current alarm.
+
+== SD Card for Alarm Melodies
+
+Please use an SD card with the following data format:
+
+* Only MP3 format is supported
+* Naming of the MP3 files has to start with a 4-digit number (e.g. 0001.mp3, 0002.mp3 etc.)
+* SD is FAT formatted
+
+The songs are played in random order when the alarm goes off.
